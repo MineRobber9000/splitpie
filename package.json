@@ -3,5 +3,11 @@
   "version": "0.1.0",
   "description": "A website to make a pie chart comparison of 2 runs on splits.io",
   "author": "Robert Miles <milesrobert374@gmail.com>",
-  "main": "splitpie.js"
+  "main": "splitpie.js",
+  "dependencies": {
+    "express": "^4.6.1",
+    "ejs": "^1.0.0",
+    "awesome-pie-chart": "^0.4.0"
+  },
+  "private": true
 }
